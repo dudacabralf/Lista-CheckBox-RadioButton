@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Questao1</string>
+    <string name="appTitulo">Escolha o seu produto:</string>
+    <string name="appTitulo2">Total da Compra:</string>
+    <string name="textResultado">Resultado</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="cbCoca">CocaCola 2L (3,00)</string>
+    <string name="cbCarne">Carne (16,70)</string>
+    <string name="cbFeijao">Feijão (3,38)</string>
+    <string name="cbLeite">Leite (2,70)</string>
+    <string name="cbArroz">Arroz (2,69)</string>
+</resources>
