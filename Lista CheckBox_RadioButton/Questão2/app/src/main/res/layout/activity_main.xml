@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF00"
+        android:text="@string/appSalario" />
+
+    <RadioGroup
+        android:id="@+id/rgPorcentual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:ems="20"
+            android:inputType="number|numberDecimal"
+            android:text="Salário" />
+
+        <TextView
+            android:id="@+id/appPorcentagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/appPorcentagem"
+            android:textColor="#FF00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="40%" />
+
+        <RadioButton
+            android:id="@+id/rb45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45%" />
+
+        <RadioButton
+            android:id="@+id/rb50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50%" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Resultado" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:backgroundTint="#FF00"
+        android:textAlignment="center"
+        android:text="@string/btnCalcular" />
+
+</LinearLayout>

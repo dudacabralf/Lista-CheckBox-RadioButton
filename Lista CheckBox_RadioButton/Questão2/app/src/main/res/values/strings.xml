@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questao2</string>
+    <string name="appSalario">Digite seu Salário (R$): </string>
+    <string name="appPorcentagem">Qual será o percentual? </string>
+    <string name="btnCalcular">Calcular</string>
+
+</resources>
