@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Questao3</string>
+    <string name="btnCadastro">Cadastro</string>
+    <string name="appTitulo">Cadastre o seu nome:</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="appTitulo2">Bem Vindo!</string>
+    <string name="appTitulo3">Cadastro concluído com sucesso.</string>
+</resources>
