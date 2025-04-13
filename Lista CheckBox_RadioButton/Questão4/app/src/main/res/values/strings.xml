@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Questao4</string>
+    <string name="btnPedido">Fazer Pedido</string>
+    <string name="btnConfirmar">Confirmar Pedido</string>
+    <string name="btnVoltar">Finalizar</string>
+    <string name="appTitulo">Escolha o seu Lanche:</string>
+    <string name="cbXburger">Xburger</string>
+    <string name="cbXsalada">Xsalada</string>
+    <string name="cbSanduiche">Sanduíche</string>
+    <string name="cbBurrito">Burrito</string>
+    <string name="cbHotDog">Hot Dog</string>
+    <string name="editTextNome">Digite o seu Nome: </string>
+</resources>

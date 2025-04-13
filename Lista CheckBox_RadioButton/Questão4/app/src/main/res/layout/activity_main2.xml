@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNome"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/editTextNome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <CheckBox
+        android:id="@+id/cbXburger"
+        android:layout_width="94dp"
+        android:layout_height="51dp"
+        android:text="@string/cbXburger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.140" />
+
+    <CheckBox
+        android:id="@+id/cbXsalada"
+        android:layout_width="95dp"
+        android:layout_height="49dp"
+        android:text="@string/cbXsalada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.240" />
+
+    <CheckBox
+        android:id="@+id/cbSanduiche"
+        android:layout_width="124dp"
+        android:layout_height="46dp"
+        android:text="@string/cbSanduiche"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.340" />
+
+    <CheckBox
+        android:id="@+id/cbBurrito"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:text="@string/cbBurrito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.440"/>
+
+    <CheckBox
+        android:id="@+id/cbHotDog"
+        android:layout_width="94dp"
+        android:layout_height="50dp"
+        android:text="@string/cbHotDog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.540"/>
+
+    <TextView
+        android:id="@+id/appTitulo"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="monospace"
+        android:text="@string/appTitulo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#D9441E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#D9441E"
+        android:text="@string/btnConfirmar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="291dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/imgilustra" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
