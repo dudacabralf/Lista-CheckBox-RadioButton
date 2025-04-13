@@ -9,6 +9,7 @@ Este projeto foi desenvolvido com base em uma lista de exercícios proposta dura
 Cada exercício foi pensado para aplicar conceitos fundamentais do desenvolvimento Android, proporcionando uma experiência prática com os principais componentes da interface gráfica, navegação entre telas, manipulação de dados de entrada e exibição de resultados dinâmicos.<br>
 
 Alguns conceitos fundamentais da ferramenta Android Studio que foram vistos:
+
 ✅ Criação de múltiplas Activities: cada app possui pelo menos três telas independentes com funções distintas.
 
 ✅ Navegação entre telas com Intent: passagem de dados entre Activities usando Intent e getStringExtra.
